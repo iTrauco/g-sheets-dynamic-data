@@ -9,7 +9,7 @@ gc = pygsheets.authorize()
 
 # Open spreadsheet and then worksheet
 sh = gc.open('pygsheet-tests')
-wks = sh.sheet2
+wks = sh.sheet1
 
 # Update a cell with value (just to let him know values is updated ;) )
 wks.update_value('A1', "Hello Google Sheets!")
